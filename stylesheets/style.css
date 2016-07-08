@@ -64,7 +64,7 @@ ul.details li{
 	display:inline-block;
 }
 .header-banner{
-	background: url("../stylesheets/header-banner.jpg") no-repeat;
+	background: url("../images/header-banner.jpg") no-repeat;
 	min-height: 860px;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -115,14 +115,14 @@ ul.details {
 i.twitter{
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat 0px 0px;
+	background: url("../images/img-sprite.png") no-repeat 0px 0px;
 	display: inline-block;
 	margin-right: 10px;
 }
 i.twitter:hover{
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat 0px 0px;
+	background: url("../images/img-sprite.png") no-repeat 0px 0px;
 	display: inline-block;
 	margin-right: 10px;
 	opacity:0.5;
@@ -130,14 +130,14 @@ i.twitter:hover{
 i.dribble{
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -60px 0px;
+	background: url("../images/img-sprite.png") no-repeat -60px 0px;
 	display: inline-block;
 	margin-right: 10px;
 }
 i.dribble:hover{
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -60px 0px;
+	background: url("../images/img-sprite.png") no-repeat -60px 0px;
 	display: inline-block;
 	margin-right: 10px;
 	opacity:0.5;
@@ -145,13 +145,13 @@ i.dribble:hover{
 i.behance {
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -120px 0px;
+	background: url("../images/img-sprite.png") no-repeat -120px 0px;
 	display: inline-block;
 }
 i.behance:hover{
 	width: 60px;
 	height: 60px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -120px 0px;
+	background: url("../images/img-sprite.png") no-repeat -120px 0px;
 	display: inline-block;
 	opacity:0.5;
 }
@@ -1114,14 +1114,14 @@ i.phone{
 }
 .nbs-flexisel-nav-left {
   	left: 735px;
-  	background: url(../stylesheets/img-sprite.png) no-repeat -185px -79px;
+  	background: url(../images/img-sprite.png) no-repeat -185px -79px;
 }
 .nbs-flexisel-nav-right {
   	right:46.5%;
- 	background: url(../stylesheets/img-sprite.png) no-repeat -235px -79px;
+ 	background: url(../images/img-sprite.png) no-repeat -235px -79px;
 }
 .twitter-section{
-	background: url("../stylesheets/header-banner.jpg") no-repeat;
+	background: url("../images/header-banner.jpg") no-repeat;
 	min-height: 425px;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -1145,19 +1145,19 @@ li.nbs-flexisel-item a:hover{
 i.tw{
 	width: 110px;
 	height: 110px;
-	background: url("../stylesheets/img-sprite.png") no-repeat 1px -157px;
+	background: url("../images/img-sprite.png") no-repeat 1px -157px;
 	display: inline-block;
 }
 i.fb{
 	width: 110px;
 	height: 110px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -110px -157px;
+	background: url("../images/img-sprite.png") no-repeat -110px -157px;
 	display: inline-block;
 }
 i.in{
 	width: 110px;
 	height: 110px;
-	background: url("../stylesheets/img-sprite.png") no-repeat -220px -157px;
+	background: url("../images/img-sprite.png") no-repeat -220px -157px;
 	display: inline-block;
 }
 .contact-section {
@@ -1174,7 +1174,7 @@ i.in{
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("../stylesheets/img-sprite.png") no-repeat -349px -192px;
+	background: url("../images/img-sprite.png") no-repeat -349px -192px;
 }
 
 /*----- responsive-design ------*/	
@@ -1501,14 +1501,14 @@ i.in{
 	i.message {
 		width: 55px;
 		height: 55px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -5px -60px;
+		background: url("../images/img-sprite.png") no-repeat -5px -60px;
 		margin-right: 11px;
 		background-size: 330px;
 	}
 	i.phone {
 		width: 55px;
 		height: 55px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -77px -60px;
+		background: url("../images/img-sprite.png") no-repeat -77px -60px;
 		margin-right: 11px;
 		background-size: 330px;
 	}
@@ -1567,14 +1567,14 @@ i.in{
 	i.dribble {
 		height: 45px;
 		width: 45px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -45px 0px;
+		background: url("../images/img-sprite.png") no-repeat -45px 0px;
 		margin-right: 10px;
 		background-size: 320px;
 	}
 	i.dribble:hover {
 		width: 45px;
 		height: 45px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -45px 0px;
+		background: url("../images/img-sprite.png") no-repeat -45px 0px;
 		margin-right: 10px;
 		background-size: 320px;
 		opacity: 0.5;
@@ -1582,14 +1582,14 @@ i.in{
 	i.behance{
 		height: 45px;
 		width: 45px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -90px 0px;
+		background: url("../images/img-sprite.png") no-repeat -90px 0px;
 		margin-right: 10px;
 		background-size: 320px;
 	}
 	i.behance:hover {
 		width: 45px;
 		height: 45px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -90px 0px;
+		background: url("../images/img-sprite.png") no-repeat -90px 0px;
 		margin-right: 10px;
 		background-size: 320px;
 		opacity: 0.5;
@@ -1778,19 +1778,19 @@ i.in{
 	i.tw {
 		width: 75px;
 		height: 75px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -1px -111px;
+		background: url("../images/img-sprite.png") no-repeat -1px -111px;
 		background-size: 290px;
 	}
 	i.fb {
 		width: 75px;
 		height: 75px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -78px -111px;
+		background: url("../images/img-sprite.png") no-repeat -78px -111px;
 		background-size: 290px;
 	}
 	i.in {
 		width: 75px;
 		height: 75px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -155px -111px;
+		background: url("../images/img-sprite.png") no-repeat -155px -111px;
 		background-size: 350px;
 	}
 	li.nbs-flexisel-item p {
@@ -1882,25 +1882,25 @@ i.in{
 	i.dribble {
 		height: 35px;
 		width: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -35px 0px;
+		background: url("../images/img-sprite.png") no-repeat -35px 0px;
 		background-size: 250px;
 	}
 	i.dribble:hover {
 		height: 35px;
 		width: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -35px 0px;
+		background: url("../images/img-sprite.png") no-repeat -35px 0px;
 		background-size: 250px;
 	}
 	i.behance {
 		height: 35px;
 		width: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -73px 0px;
+		background: url("../images/img-sprite.png") no-repeat -73px 0px;
 		background-size: 250px;
 	}
 	i.behance:hover {
 		height: 35px;
 		width: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -73px 0px;
+		background: url("../images/img-sprite.png") no-repeat -73px 0px;
 		background-size: 250px;
 	}
 	ul.details {
@@ -2062,19 +2062,19 @@ i.in{
 	i.tw {
 		width: 50px;
 		height: 50px;
-		background: url("../stylesheets/img-sprite.png") no-repeat 0px -73px;
+		background: url("../images/img-sprite.png") no-repeat 0px -73px;
 		background-size: 190px;
 	}
 	i.fb {
 		width: 50px;
 		height: 50px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -51px -73px;
+		background: url("../images/img-sprite.png") no-repeat -51px -73px;
 		background-size: 190px;
 	}
 	i.in {
 		width: 50px;
 		height: 50px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -100px -73px;
+		background: url("../images/img-sprite.png") no-repeat -100px -73px;
 		background-size: 190px;
 	}
 	li.nbs-flexisel-item p {
@@ -2088,7 +2088,7 @@ i.in{
 		margin-top: 6em;
 	}
 	.nbs-flexisel-nav-right {
-		background: url(../stylesheets/img-sprite.png) no-repeat -167px -59px;
+		background: url(../images/img-sprite.png) no-repeat -167px -59px;
 		background-size: 288px;
 	}
 	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
@@ -2096,7 +2096,7 @@ i.in{
 		height: 30px;
 	}
 	.nbs-flexisel-nav-left {
-		background: url(../stylesheets/img-sprite.png) no-repeat -131px -59px;
+		background: url(../images/img-sprite.png) no-repeat -131px -59px;
 		background-size: 288px;
 		left: 275px;
 	}
@@ -2122,14 +2122,14 @@ i.in{
 	i.message {
 		width: 35px;
 		height: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -3px -38px;
+		background: url("../images/img-sprite.png") no-repeat -3px -38px;
 		margin-right: 7px;
 		background-size: 210px;
 	}
 	i.phone {
 		width: 35px;
 		height: 35px;
-		background: url("../stylesheets/img-sprite.png") no-repeat -48px -38px;
+		background: url("../images/img-sprite.png") no-repeat -48px -38px;
 		margin-right: 7px;
 		background-size: 210px;
 	}
