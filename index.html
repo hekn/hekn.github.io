@@ -167,21 +167,31 @@
 						</div>
 					</div>
 					<div class="col-md-8 portfolio-section-top-row-right-grid">
-		<div class="wmuSlider example1 section" id="section-1">
-			   <article style="position: absolute; width: 100%; opacity: 1;"> 
-					<img src="./stylesheets/img1.jpg" class="img-responsive" alt="">
-				</article>
-				<article style="position: absolute; width: 100%; opacity: 1;"> 
-`					<img src="./stylesheets/img2.jpg" class="img-responsive" alt="">
-				</article>
-				<article style="position: absolute; width: 100%; opacity: 1;"> 
-					<img src="./stylesheets/img3.jpg" class="img-responsive" alt="">
-				</article>
-                    
-				<ul class="wmuSliderPagination">
-                	<li><a href="#" class="">0</a></li>
-                	<li><a href="#" class="">1</a></li>
-                	<li><a href="#" class="">2</a></li>
+		<div id="myCarousel" class="carousel slide">
+   <!-- 轮播（Carousel）指标 -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>   
+   <!-- 轮播（Carousel）项目 -->
+   <div class="carousel-inner">
+      <div class="item active">
+         <img src="./img1.jpg" alt="First slide">
+      </div>
+      <div class="item">
+         <img src="./img2.jpg" alt="Second slide">
+      </div>
+      <div class="item">
+         <img src="./img3.jpg" alt="Third slide">
+      </div>
+   </div>
+   <!-- 轮播（Carousel）导航 -->
+   <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a>
+   <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a>
+</div> 
                 </ul>
 
 		  </div>
