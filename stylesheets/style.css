@@ -64,7 +64,7 @@ ul.details li{
 	display:inline-block;
 }
 .header-banner{
-	background: url("../stysheets/header-banner.jpg") no-repeat;
+	background: url("../header-banner.jpg") no-repeat;
 	min-height: 860px;
 	background-size: cover;
 	-webkit-background-size: cover;
