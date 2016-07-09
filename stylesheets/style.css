@@ -452,7 +452,7 @@ ul.wmuSliderPagination {
 	width:40px;
 	height:50px;
 	text-indent: -9999px;
-	background: url(./img-sprite.png)no-repeat ;
+	background: url("./img-sprite.png")no-repeat ;
 	top:35%;
 	z-index: 2;
 	cursor: pointer;
@@ -1053,7 +1053,7 @@ i.phone{
 	border: none;
 	outline: none;
 	cursor: pointer;
-	background:url(./img-sprite.png) no-repeat -307px -19px;
+	background:url("./img-sprite.png") no-repeat -307px -19px;
 	position: absolute;
 	right: 9px;
 	bottom: 9px;
@@ -1114,11 +1114,11 @@ i.phone{
 }
 .nbs-flexisel-nav-left {
   	left: 735px;
-  	background: url(./img-sprite.png) no-repeat -185px -79px;
+  	background: url("./img-sprite.png") no-repeat -185px -79px;
 }
 .nbs-flexisel-nav-right {
   	right:46.5%;
- 	background: url(./img-sprite.png) no-repeat -235px -79px;
+ 	background: url("./img-sprite.png") no-repeat -235px -79px;
 }
 .twitter-section{
 	background: url("./header-banner.jpg") no-repeat;
