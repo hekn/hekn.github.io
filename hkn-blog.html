@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="stylesheets/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="stylesheets/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href="stylesheets/h1.css">
+<link href="stylesheets/h2.css">
+    <script type="text/javascript" src="stylesheets/move-top.js"></script>
+<script type="text/javascript" src="stylesheets/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+ <!-- header-section-starts -->
+    <div class="header">
+		<div class="header-banner">
+			<div class="container">
+				<div class="top-menu">
+				    <span class="menu"> </span>
+					    <ul>
+							<li><a href="#ABOUT" class="scroll">ABOUT</a></li>
+							<li><a href="#WORK" class="scroll">WORK</a></li>
+							<li><a href="#BLOG" class="scroll">BLOG</a></li>
+							<li><a href="#CONTACT" class="scroll">CONTACT</a></li>
+							<div class="clearfix"></div>
+						</ul>
+				    </div>
+		 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+				<div class="header-banner-info text-center">
+					<a href="#"><img src="stylesheets/logo.png" alt="" /></a>
+					<h3>HELLO</h3>
+					<h1>My name is <span>Connie.</span> </h1>
+					<p>贺孔尼   北京邮电大学   信息工程 </p>
+					<ul class="details">
+						<li>年龄     :     <a href="#">20</a></li>
+						<li>城市     :     <a href="#">北京</a></li>
+						<li>学校     :     <a href="#">BUPT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- header-section-ends -->
+    <!-- content-section-starts -->
+    <div class="content-section">
+	    <!-- about-section-starts -->
+		<div class="about-section" id="ABOUT">
+			<div class="container">
+			<div class="about-section-head text-center">
+					<h3>HOW TO CREATE A BLOG?</h3>
+					<p><span>2016年7月7日<a href="#">北京</a>晴</span></p>
+                                        <p>1.注册账号:
+                                             输入账号、邮箱、密码,然后点击注册按钮.
+                                             注册完成后,选择Free免费账号完成设置。</p>
+                                        <p>2.创建页面仓库
+                                             这个仓库的名字需要和你的账号对应， 如hkn.github.io
+                                             输入基本信息,然后点击创建仓库.</p>
+                                        <p>3.进入项目设置页面
+                                             因为这个项目就是专门的放页面的,所以master分支即可. 如果是你的某个仓库的页面,你需要设置到 gh-pages 分支中,关于这些,请参考本文末尾提到的参考资料.</p>
+                                        <p>4.进入自动页面生成器
+                                             在设置页面,下拉到底部, 默认分支(master)不用管.</p>
+                                        <p>5.创建用户页面(即个人技术博客站点)
+                                             输入一些内容,可以自己编辑,也可以从readme加载,然后选择发布页面。</p>
+                                        <p>6.之后就可以在个人仓库对这个页面进行一些修改改成自己的页面啦！</p>
+                                       
+                                        <p>辅助视频</p>
+
+				</div>
+				</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!-- about-section-ends -->
+		
+	<!-- footer-section-starts -->
+	<div class="footer">
+	    <div class="container">
+			<div class="copy-rights text-center">
+			</div>
+		</div>
+	</div>
+	<!-- footer-section-ends -->
+				  <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+ 
+</body>
+</html>
